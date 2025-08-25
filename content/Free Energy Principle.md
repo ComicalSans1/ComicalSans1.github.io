@@ -1,0 +1,2 @@
+**Main idea**: The brain reduces **surprise**(new information) or **uncertainty** by making predictions based on internal world models, and uses sensory input to **update its world model** so as to improve the accuracy of its predictions,
+- Continuous correction of world models, or changing world to be in accordance to model; **this is the basis of biological reaction.** 
