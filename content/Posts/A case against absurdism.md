@@ -16,12 +16,4 @@ the distribution of intelligence extraterrestrially will be a watershed moment w
 is human techology infinite in potential? not macro or micro but in complexity and ability? maybe also micro
 it is not our fate to decide?
 humanity is unbelievably inefficient at science
-we need to eliminate biological emoitional temporal fiscal constraints
-I WILL BE AT THE FOREFRONT
-THIS HAS TURNED INTO AI PROPAGANDA
-I DO NOT CARE
-ART?
-ART WILL EXIST 
-MAYBE
-IS ART A BYPRODUCT OF HUMANITY OR OF INTELLIGENCE? WE DON'T KNOW
-
+we need to eliminate biological emotional temporal fiscal constraints
