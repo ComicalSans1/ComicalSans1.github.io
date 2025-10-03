@@ -1,4 +1,3 @@
-(Figure out which one is generate_episode and which one is the actual updation function)
 **Basic Sarsa:**
 Initialize Q(s, a)
 Repeat:

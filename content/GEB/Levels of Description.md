@@ -1,3 +1,6 @@
+**Structure:**
+Chess chunking → Humans thought is comprised of levels → Levels of computer systems → 
+
 pg 287 - humans are comprised of many levels 
 
 the kind of hierarchy of needs - maybe as we move further up the pyramid, our brain needs higher levels of thinking to satisfy said needs? 

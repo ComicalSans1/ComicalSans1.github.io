@@ -24,3 +24,7 @@ Self-referencing structure - points to another struct of its own kind
 list.h -> list.c
 first 5 tickets: first come first serve aarush
 website history page
+
+
+Stack:
+last element: top
