@@ -81,11 +81,10 @@ const recentNotes = [
       f.slug!.startsWith("Posts/") && f.slug! !== "Posts/index" && !f.frontmatter?.noindex,
     linkToMore: "posts/" as SimpleSlug,
   }),
-  Component.RecentNotes({
-    title: "Recent Notes",
-    limit: 2,
-    filter: (f) => f.slug!.startsWith("thoughts/"),
-    linkToMore: "thoughts/" as SimpleSlug,
+  Component.Explorer({
+    title: "Notes",
+    root: "Full Notes", // The folder you want to show
+    // You can add more options if your Explorer component supports them
   }),
 ]
 
