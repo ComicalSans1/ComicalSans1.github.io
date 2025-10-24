@@ -18,3 +18,5 @@ I am not going to talk about the importance/futility of such an endeavor, curios
 
 So we will always have to pick and choose what we give our limited attention to  
 disappointing, but beautiful too  
+
+My relationship with this
