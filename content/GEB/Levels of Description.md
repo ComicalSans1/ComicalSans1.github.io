@@ -14,3 +14,4 @@ it's only the nature of the needs themselves that get more psychological - the m
 
 at the bottom - We've already mostly figured this out - we already have AIs that can have hunger, thirst, etc. and go search for food, etc.
 nah abort thought
+maybe approach it from an RL perspective

@@ -1,1 +1,3 @@
-[[Manifesto]]
+---
+title: "hello"
+---
