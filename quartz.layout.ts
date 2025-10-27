@@ -74,13 +74,13 @@ import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
 
 const recentNotes = [
-  Component.RecentNotes({
-    title: "Recent Writing",
-    limit: 4,
-    filter: (f) =>
-      f.slug!.startsWith("Posts/") && f.slug! !== "Posts/index" && !f.frontmatter?.noindex,
-    linkToMore: "posts/" as SimpleSlug,
-  }),
+  // Component.RecentNotes({
+  //   title: "Recent Writing",
+  //   limit: 4,
+  //   filter: (f) =>
+  //     f.slug!.startsWith("Posts/") && f.slug! !== "Posts/index" && !f.frontmatter?.noindex,
+  //   linkToMore: "posts/" as SimpleSlug,
+  // }),
   Component.Explorer({
     title: "Notes",
     root: "Full Notes", // The folder you want to show

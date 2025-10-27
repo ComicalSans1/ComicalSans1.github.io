@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import remarkBreaks from "remark-breaks"
 
 /**
  * Quartz 4 Configuration
@@ -56,9 +57,12 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
-      }),
+      {
+        name: "Remark Breaks",
+        transform: (content) => {
+          return remarkBreaks()(content)
+        },
+      },
       Plugin.ObsidianFlavoredMarkdown({
         enableInHtmlEmbed: false,
         preserveNewlines: true,
