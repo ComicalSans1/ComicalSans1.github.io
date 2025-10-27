@@ -82,7 +82,7 @@ const recentNotes = [
     linkToMore: "posts/" as SimpleSlug,
   }),
   Component.Explorer({
-    title: "Notes",
+    title: "cum",
     root: "Full Notes", // The folder you want to show
     // You can add more options if your Explorer component supports them
   }),
@@ -121,14 +121,14 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
   left,
   right: [
-    Component.Graph({
-      localGraph: {
-        showTags: false,
-      },
-      globalGraph: {
-        showTags: false,
-      },
-    }),
+    // Component.Graph({
+    //   localGraph: {
+    //     showTags: false,
+    //   },
+    //   globalGraph: {
+    //     showTags: false,
+    //   },
+    // }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
