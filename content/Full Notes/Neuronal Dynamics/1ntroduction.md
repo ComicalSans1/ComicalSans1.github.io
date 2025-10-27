@@ -1,12 +1,12 @@
 # Structure of The Neuron:
-Dendrite, Soma, Axon
-**Dendrites**: Input device, collects signals from other neurons and transports them to the:
-**Soma:** CPU, performs nonlinear processing (Threshold activation)
-**Axon:** Output device, delivers signal to other neurons
+Dendrite, Soma, Axon  
+**Dendrites**: Input device, collects signals from other neurons and transports them to the:  
+**Soma:** CPU, performs nonlinear processing (Threshold activation)  
+**Axon:** Output device, delivers signal to other neurons  
 
-The junction between 2 neurons is called a **Synapse**. 
-Sending neuron: Presynaptic cell
-Receiving neuron: Postsynaptic cell
+The junction between 2 neurons is called a **Synapse**.  
+Sending neuron: Presynaptic cell  
+Receiving neuron: Postsynaptic cell  
 A single neuron connects to up to tens of thousands of other neurons. Many axonal branches end in the direct neighborhood of the neuron, but some may extend several cm to reach neurons in other parts of the brain.
 # Spike Trains:
 Neuronal signals consist of short electrical pulses called **action potentials**, with an amplitude of 100mV and a duration of 1-2 ms. The action potential is the fundamental unit of signal transmission.
