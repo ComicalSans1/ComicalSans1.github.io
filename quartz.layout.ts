@@ -82,7 +82,7 @@ const recentNotes = [
     linkToMore: "posts/" as SimpleSlug,
   }),
   Component.Explorer({
-    title: "cum",
+    title: "Notes",
     root: "Full Notes", // The folder you want to show
     // You can add more options if your Explorer component supports them
   }),

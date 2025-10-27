@@ -1,0 +1,22 @@
+/* Match Obsidian's text rendering */
+.markdown-rendered p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  white-space: pre-line;
+}
+
+/* Fix code block formatting */
+.markdown-rendered pre {
+  padding: 1em;
+  background-color: var(--code-bg);
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+/* Preserve tabs in code blocks */
+.markdown-rendered pre code {
+  tab-size: 4;
+  -moz-tab-size: 4;
+  white-space: pre;
+}

@@ -59,14 +59,14 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
-        keepBackground: false,
+      Plugin.ObsidianFlavoredMarkdown({
+        enableInHtmlEmbed: false,
+        preserveNewlines: true,
+        parseTables: true,
+        enableUserTags: true,
+        enableFrontmatterTags: true,
+        enablePrettyRefs: true,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),

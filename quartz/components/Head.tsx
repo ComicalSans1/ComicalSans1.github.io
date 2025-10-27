@@ -98,6 +98,7 @@ export default (() => {
           }
         })}
         <link rel="stylesheet" href="/obsidian-overrides.css" />
+        <link rel="stylesheet" href="/custom.css" />
       </>
     )
   }
