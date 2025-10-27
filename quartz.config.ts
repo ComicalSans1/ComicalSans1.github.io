@@ -58,6 +58,13 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       {
+        name: "ExpandTabs",
+        transform: (content: string) => {
+          // convert each tab to 4 spaces (change 4 to your preferred width)
+          return content.replace(/\t/g, "    ")
+        },
+      },
+      {
         name: "Remark Breaks",
         transform: (content) => {
           return remarkBreaks()(content)

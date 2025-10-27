@@ -55,3 +55,25 @@
   font-size: 16px;
   color: var(--text-color, #e6e6e6);
 }
+
+/* preserve tab characters and control their width */
+.markdown-body pre,
+.markdown-body code,
+.markdown-rendered pre,
+.markdown-rendered code {
+  tab-size: 4;           /* visual width of a tab (2/4/8 as you prefer) */
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  white-space: pre;      /* keep tabs preserved in code blocks */
+}
+
+/* If you want tabs preserved in normal prose (like Obsidian preview),
+   enable this, but it will affect wrapping behavior */
+.markdown-body p,
+.markdown-body li,
+.markdown-rendered p,
+.markdown-rendered li {
+  tab-size: 4;
+  -moz-tab-size: 4;
+  white-space: pre-wrap; /* preserves tabs & single newlines but still wraps long lines */
+}
