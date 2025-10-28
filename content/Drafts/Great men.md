@@ -1,2 +1,0 @@
-[Great men](https://en.wikipedia.org/wiki/Great_man_theory) don’t exist in science, but do exist in art?
-it’s pretty simple, if we ran back civilization from scratch with a randomized starting position and

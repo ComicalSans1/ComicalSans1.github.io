@@ -83,10 +83,8 @@ const recentNotes = [
   // }),
   Component.Explorer({
     title: "Notes",
-    root: "Full Notes",
-    excludePath: ["Drafts"],  // Add this line to exclude the Drafts folder
-    // You can exclude multiple paths by adding more to the array:
-    // excludePath: ["Drafts", "Private", "Templates"],
+    root: "Full Notes", // The folder you want to show
+    // You can add more options if your Explorer component supports them
   }),
 ]
 
