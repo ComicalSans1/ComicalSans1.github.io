@@ -1,6 +1,6 @@
 **Note**: Absurdism here is the notion that nothing we do ever matters at all because we are utterly insignificant to the universe. There are infinite universes each with mind image you know yes all futures all realites imagined or otherwise exist simultaneously both in our minds a the time of thinking and in the material space in one of the inifinite universes each with their own laws and rules and constants It is all infinite all constant all changing it is all absurd you get it
 
-Yeah humanity is fuckinjg insignificant spatially and temporally
+Yeah humanity is insignificant spatially and temporally
 yeah like the fucking expansion of the universe so we won't be able to interact with anything outside our local cluster and shit
 but
 but
