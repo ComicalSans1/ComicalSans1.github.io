@@ -77,6 +77,7 @@ const config: QuartzConfig = {
         enableUserTags: true,
         enableFrontmatterTags: true,
         enablePrettyRefs: true,
+        openLinksInNewTab: true, // try this if supported
       }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),

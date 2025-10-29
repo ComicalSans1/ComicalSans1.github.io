@@ -1,6 +1,6 @@
 [this post](https://www.alexirpan.com/2018/02/14/rl-hard.html)  
 
-**Thoughts/Ideas:**
+**Thoughts/Ideas:**  
 many agents in environment that do wildly different policies for sparse rewards  
 child-adult thing where adults exploit and children explore at the same time  
 

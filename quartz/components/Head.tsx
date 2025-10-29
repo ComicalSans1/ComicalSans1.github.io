@@ -99,6 +99,27 @@ export default (() => {
         })}
         <link rel="stylesheet" href="/obsidian-overrides.css" />
         <link rel="stylesheet" href="/custom.css" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('a[href]').forEach(function(a){
+          var href = a.getAttribute('href') || '';
+          if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+          try {
+            var url = new URL(href, location.href);
+            if (url.hostname !== location.hostname) {
+              a.setAttribute('target', '_blank');
+              a.setAttribute('rel', 'noopener noreferrer');
+            }
+          } catch(e){
+            // relative URL -> internal; skip (remove the `if` above if you want all links to open new tab)
+          }
+        });
+      });
+    `,
+          }}
+        />
       </>
     )
   }
