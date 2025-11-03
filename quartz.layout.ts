@@ -96,7 +96,6 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/ComicalSans1",
-      Twitter: "https://twitter.com/_jzhao",
     },
   }),
 }
@@ -130,7 +129,7 @@ export const defaultContentPageLayout: PageLayout = {
     //   },
     // }),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    // Component.Backlinks(),
   ],
 }
 

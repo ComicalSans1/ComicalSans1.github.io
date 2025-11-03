@@ -31,7 +31,6 @@
         **end for**  
 **end function**  
 
-
 # Actor-Critic With Eligibility Traces
 
 **Critic:** Updates w by TD($\lambda$)  

@@ -23,4 +23,4 @@ generate episodes -> MC prediction -> etc
 - $\alpha_t = 1/{N}(s_t, a_t)$ 
 - $\epsilon_t = N_0/{(N_0 + N(s_t))}$ 
 
-**NOTE:** The SVF/AVF is not a table consisting of all possible states and actions, it's a dictionary mapping state to value. intuitively, 
+**NOTE:** The SVF/AVF is not a table consisting of all possible states and actions, it's a dictionary mapping state to value.

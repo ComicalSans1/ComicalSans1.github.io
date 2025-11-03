@@ -8,4 +8,7 @@ The simplest form of Integrate-And-Fire models is the Leaky Integrate-And-Fire m
 - A threshold for spike firing.
 
 In the absence of any input, the membrane potential is at its resting value $u_{rest}$. When a current $I(t)$ is injected into the neuron, it results in a new potential $u_i (t)$. We now need to derive an equation that links $u_i(t)$ to $I(t)$.  
-When $I(t)$ is injected into the neuron, some of the charge is absorbed by the neuronal membrane, as it is not a perfect conductor.
+When $I(t)$ is injected into the neuron, Not all of it is conducted by the neuron, and the additional charge $\int I(t')dt'$ charges the cell membrane, making it act like a capacitor with capacity $C$. The membrane is not a perfect insulator either, so it leaks charge, characterized by a leak resistance $R$.
+
+![[Pasted image 20251029153257.png|400]]
+
