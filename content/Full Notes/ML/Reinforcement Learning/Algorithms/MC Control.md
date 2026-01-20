@@ -1,8 +1,8 @@
-Monte Carlo:
-generate episodes -> MC prediction -> etc
+Monte Carlo:  
+generate episodes -> MC prediction -> etc  
 
 **Generate Episode**: (policy, env) -> SAR(states, actions, rewards)
-- reset env
+- reset env  
 - keep taking actions; append observation, action, reward to states, actions, rewards
 - return
 

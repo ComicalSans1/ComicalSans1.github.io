@@ -6,7 +6,7 @@ From our point of view though, it does make sense. IMO the fundamental question 
 “Rarely is suicide committed through reflection” so true  
 Of course, the environment which leads to a person questioning their existence also provides them with ample external means to crystallize their inner \[angst]
 
-sidenote: Human suicide is more meaningful than animal suicide, because humans have a means of justifying their own existence, and (i’ll expand on this later)
+sidenote: Human suicide is more meaningful than animal suicide, because humans have a means of justifying their own existence, and (i’ll expand on this later, if it has any legs)
 
 In my view there are three ways you can react to this notion of absolute insignificance;  
 disproving it (will talk about this in another note), compromising the integrity of the worldview, and accepting it for what it is.  
@@ -16,3 +16,5 @@ The first is something i will attempt to do, because logically we have not found
 addition: maybe just proving that this can be possible theoretically in a like self-consistent way is enough, instead of seeing it all the way through actually doing it?
 
 Of course, this says nothing about the smaller insignificance of the individual’s miniscule role in society, and this notion will probably continue to exist as long as society is comprised of \[personal] individuals as opposed to any variant of a non-individualistic society (hive-mind)
+
+

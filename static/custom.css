@@ -20,3 +20,8 @@
   -moz-tab-size: 4;
   white-space: pre;
 }
+
+/* Reduce top spacing for header, sidebar, and article title */
+.page>#quartz-body .page-header { margin-top: 2rem !important; }
+.page>#quartz-body .sidebar { padding-top: 2rem !important; }
+.article-title { margin: 1rem 0 0 !important; }
