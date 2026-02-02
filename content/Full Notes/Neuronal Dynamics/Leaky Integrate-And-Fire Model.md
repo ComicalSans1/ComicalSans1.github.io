@@ -12,12 +12,11 @@ When $I(t)$ is injected into the neuron, Not all of it is conducted by the neuro
 The basic circuit representing a LIF model consists of capacitor $C$ in parallel with resistor $R$, driven by current $I(t)$.   
 ![[Pasted image 20251029153257.png|400]]  
 We need to arrive at a differential equation that describes the evolution of membrane potential $u$ over time.  
-We start with splitting the driving current $I(t)$ into 2 components  
-$I(t) = I_R + I_C$,  
-where $I_R$ is the current passing through the resistor $R$, and is equal to $\frac{u_R}{R} = \frac{u(t) - u_{rest}}{R}$  
+We start with splitting the driving current $I(t)$ into 2 components  $$I(t) = I_R + I_C$$,  
+where $I_R$ is the current passing through the resistor $R$, and is equal to $$\frac{u_R}{R} = \frac{u(t) - u_{rest}}{R}$$
 and $I_C$ is the current passing through the capacitor $C$, $I_C = C \frac{du}{dt}$  
-Therefore, $I(t) = \frac{u(t) - u_{rest}}{R} + C \frac{du}{dt}$ 
-Rearranging terms, we get $RC \frac{du}{dt} = -[u(t) - u_{rest}] + RI(t)$. Now we introduce time constant $\tau_m = RC$, and finally get the standard form $$\tau_m \frac{du}{dt} = -[u(t) - u_{rest}] + RI(t)$$
+Therefore$$I(t) = \frac{u(t) - u_{rest}}{R} + C \frac{du}{dt}$$ 
+Rearranging terms, we get $$RC \frac{du}{dt} = -[u(t) - u_{rest}] + RI(t).$$ Now we introduce time constant $\tau_m = RC$, and finally get the standard form $$\tau_m \frac{du}{dt} = -[u(t) - u_{rest}] + RI(t)$$
 ## Limitations:
 The LIF model is highly simplified, and neglects many aspects of neuronal dynamics.  
 - Input is integrated linearly, which is a no-no for the same reasons that it’s bad in artificial neural nets.
