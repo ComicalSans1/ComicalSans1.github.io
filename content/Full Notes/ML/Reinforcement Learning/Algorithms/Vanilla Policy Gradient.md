@@ -11,3 +11,9 @@ NOTE: here, `weights` simply refers to the return function of your choice, so yo
 `train_one_epoch`:   
 - initialize lists for observations, actions, weights, returns, and episode lengths.  
 
+Implementation:  
+Loss formula: $\hat{g} = \frac{1}{|\mathcal{D}|} \sum_{r \in \mathcal{D}} \sum^T_{t=0}\nabla log \pi_{\theta} (a_t|s_t) R(\tau)$
+run through one episode, while recording state, action, reward  
+after episode completion, calculate total return, episode length  
+
+Loss calculation: Calculate `log_prob` of action taken when following policy returned by actor, multiply with weights, make negative because we want to minimize this value
