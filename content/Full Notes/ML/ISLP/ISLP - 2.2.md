@@ -9,9 +9,7 @@ This leads to a much higher MSE in the test data as the patterns the model picke
 
 ### Bias-Variance Tradeoff
 
-The expected test MSE for a given value $x_0$ can always be decomposed into the sum of three fundamental quantities: the variance of $\hat{f}(x_0)$, the squared *bias* of $\hat{f}(x_0)$ and the variance of the error variance bias terms $\epsilon$. That is, 
-#### $E((y_0) - \hat{f}(x_0))^2$ = $Var(\hat{f}(x_0)) + [Bias(\hat{f}(x_0))]^2 + Var(\epsilon)$.
-
+The expected test MSE for a given value $x_0$ can always be decomposed into the sum of three fundamental quantities: the variance of $\hat{f}(x_0)$, the squared *bias* of $\hat{f}(x_0)$ and the variance of the error variance bias terms $\epsilon$. That is, $$E((y_0) - \hat{f}(x_0))^2$ = $Var(\hat{f}(x_0)) + [Bias(\hat{f}(x_0))]^2 + Var(\epsilon)$$
 Here, $E((y_0) - \hat{f}(x_0))^2$ defines the *expected test MSE* at $x_0$, and refers to the average test MSE obtained by repeatedly estimating f using a large number of training sets, and testing each at $x_0$.
 The overall expected test MSE can be computed by averaging $E((y_0) - \hat{f}(x_0))^2$ over all possible values of $x_0$ in the test set.
 
@@ -48,19 +46,10 @@ where $\hat{y}_0$ is the predicted class label that results from applying the cl
 
 #### The Bayes Classifier
 
-It is possible to show that the test error rate $Ave(I(y_0 \neq \hat{y}_0))$ is minimized, on average, by a very simple classifier that assigns each observation to the most likely class, given its predictor values. That is, the class where 
-##### **$Pr(Y = j|X = x_0)$** 
-
+It is possible to show that the test error rate $Ave(I(y_0 \neq \hat{y}_0))$ is minimized, on average, by a very simple classifier that assigns each observation to the most likely class, given its predictor values. That is, the class where $$Pr(Y = j|X = x_0)$$
 is largest.
 
-The Bayes classifier produces the lowest possible test error rate, called the Bayes error rate. Since the Bayes classifier will always choose the class for which $Pr(Y = j|X = x_0)$ is largest, the overall error rate will be $1 - max_jPr(Y = j|X = x_0)$  at $X = x_0$. The overall Bayes error rate is given by
-##### $1 - E(max_jPr(Y = j | X))$  ,
-
-where E(the expectation) averages the probability over all possible values of X. The Bayes error rate is analogous to irreducible error.
-
-**NOTE :** The Bayes classifier requtesires the knowledge of the conditional distribution of Y given X, which is not possible for real data. Thus, this classifier serves as an **unattainable gold standard** against which to compare other methods.
-Other approaches attempt to estimate the conditional distribution of Y given X, and then classify a given observation to the class with highest *estimated* probability.
-
+The Bayes classifier produces the lowest possible test error rate, called the Bayes error rate. Since the Bayes classifier will always choose the class for which $Pr(Y = j|X = x_0)$ is largest, the overall error rate will be $1 - max_jPr(Y = j|X = x_0)$  at $X = x_0$. The overall Bayes error rate is given by $$1 - E(max_jPr(Y = j | X))$$
 #### K-Nearest Neighbors
 
 One such example of a feasible but non-perfect method is the *K-nearest neighbors*(KNN) classifier. Given a positive integer $K$ and a test observation $x_0$, the KNN classifier first identifies the $K$ points in the training data that are closest to $x_0$, represented by $\cal{N}_0$. 

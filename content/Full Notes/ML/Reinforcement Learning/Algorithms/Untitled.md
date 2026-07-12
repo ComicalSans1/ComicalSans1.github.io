@@ -13,7 +13,7 @@ returns tuple of (next_state, reward, is_terminal)
 if terminal: return (state, 0 reward, True)
 if hit: 
 draw card - black means add value of card to player_sum, red means subtract from player_sum.
-check bustiness - player_sum > 21 or < 1 means bust.
+check if bust - player_sum > 21 or < 1 means bust.
 if bust - return (state, -1, True)
 else - return (state, 0, False)
 if stick:
